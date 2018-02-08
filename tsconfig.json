@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "amd",
+    "module": "commonjs",
     "sourceMap": true
   },
+  "include": [
+      "src/**/*"
+  ],
   "exclude": [
     "node_modules",
-    "typings/main",
-    "typings/main.d.ts"
+    "**/*.spec.ts"
   ]
 }

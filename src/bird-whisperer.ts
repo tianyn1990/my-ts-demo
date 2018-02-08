@@ -8,5 +8,5 @@ class BirdWhisperer {
     }
 }
 
-let birdWhisperer = new BirdWhisperer('coo coo coo');
-document.body.innerHTML = birdWhisperer.chirp();
+const msg = 'coo coo coo';
+let birdWhisperer = new BirdWhisperer(msg);
